@@ -31,14 +31,14 @@ layout = [
     [sg.Text('Date of Analysis:', size=(33, 1), background_color = 'white'), sg.InputText('01.01.19', key='anal_date')],      
     [sg.Text('Date of Experiment:', size=(33, 1), background_color = 'white'), sg.InputText('25.12.18', key='ex_date')],      
     [sg.Text('Instrument:', size=(33, 1), background_color = 'white'), sg.InputText('Waters Synapt G2 Si', key='instrument')],         
-    [sg.Text('Enter a significance threshold for differences between states A & B. For a 10% difference, enter 0.05', background_color = 'white')],
+    [sg.Text('Enter a significance threshold for differences between states A & B. For a 5% difference, enter 0.05', background_color = 'white')],
     [sg.Text('Threshold:', size=(33, 1), background_color = 'white'), sg.InputText('0.05', key='poshigh')],      
     [sg.Text('Number of Repeats:', size=(33, 1), background_color = 'white'), sg.InputText('3', key='number_repeats')],
     [sg.Text('These colour the spread sheet exchange values, default values are 0.1, 0.35, & 0.7.', background_color = 'white')],
     [sg.Text('Low Colour', size=(33, 1), background_color = 'white'), sg.InputText('0.1', key='low')],   
     [sg.Text('Mid Colour', size=(33, 1), background_color = 'white'), sg.InputText('0.35', key='mid')],      
     [sg.Text('High Colour', size=(33, 1), background_color = 'white'), sg.InputText('0.7', key='high')],     
-    [sg.Submit(), sg.Cancel(),sg.Image(filename = 'arc.gif', size=(450,100))],
+    [sg.Submit(), sg.Cancel()],
     [sg.Text('version 0.1', size = (50,1), font =('Helvetica',10), justification = 'left', background_color = 'white')]
              ]      
 
